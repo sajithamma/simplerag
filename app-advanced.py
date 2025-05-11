@@ -61,6 +61,7 @@ chat_engine = index.as_chat_engine(
         "You are a helpful assistant"
     ),
     verbose=False,
+    similarity_top_k=5,
 )
 
 chat_history = []
